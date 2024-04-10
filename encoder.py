@@ -15,8 +15,3 @@ def encode(password):
         new_password += char
 
     return new_password
-
-
-print(encode("12345555"))
-
-
