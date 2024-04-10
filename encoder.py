@@ -9,9 +9,10 @@ def encode(password):
         char += 3
 
         if char >= 10:
-            char = 0
+            char -= 10
 
         char = str(char)
         new_password += char
 
     return new_password
+
